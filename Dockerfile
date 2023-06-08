@@ -7,8 +7,8 @@
 # Module list
 # ------------------------------------------------------------------
 # python                3.10.0           (apt)
-# torch                 2.0.1+cu118      (pip)
-# torchvision           0.15.2+cu118     (pip)
+# torch                 2.0.1            (pip)
+# torchvision           0.15.2           (pip)
 # torchaudio            2.0.2            (pip)
 # torchtext             0.15.2           (pip)
 # tensorflow            2.13.0rc1        (pip)
@@ -174,7 +174,7 @@
 
     # Based on https://pytorch.org/get-started/locally/
 
-    RUN $PIP_INSTALL torch==2.0.1+cu118 torchvision==0.15.2+cu118 torchaudio==2.0.2 torchtext==0.15.2 && \
+    RUN $PIP_INSTALL torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 torchtext==0.15.2 && \
         
 
 # ==================================================================
